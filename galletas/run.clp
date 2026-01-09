@@ -1,5 +1,3 @@
-; archivo: ejecutar-galletas.clp
-
 (load "galletas/bc.clp")
 (load "galletas/bh.clp")
 
@@ -10,3 +8,4 @@
             (maximum-defuzzify 4) crlf)
 (printout t "moment-defuzzify: "
             (moment-defuzzify 4) crlf)
+
